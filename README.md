@@ -1,7 +1,7 @@
 ## microcontainer based on Alpine with working init process and glibc
-[![](https://badge.imagelayers.io/nimmis/alpine-glibc:latest.svg)](https://imagelayers.io/?images=nimmis/alpine-glibc:latest)
+[![](https://images.microbadger.com/badges/image/nimmis/alpine-glibc.svg)](https://microbadger.com/images/nimmis/alpine-glibc "Get your own image badge on microbadger.com")
 
-This is a very small container (15 Mb) but still have glibc libraries,  a working init process, crond, syslog and logrotate. This is the base image for all my other microcontainers needing glibc
+This is a very small container (14 Mb) but still have glibc libraries,  a working init process, crond, syslog and logrotate. This is the base image for all my other microcontainers needing glibc
 
 ### Why use this image
 
@@ -136,15 +136,32 @@ remove the container
 
 	docker run --rm nimmis/alpine-glibc set_tz list
 
-### TAGs
+## Issues
+
+If you have any problems with or questions about this image, please contact us by submitting a ticket through a [GitHub issue](https://github.com/nimmis/docker-alpine-glibc/issues "GitHub issue")
+
+1. Look to see if someone already filled the bug, if not add a new one.
+2. Add a good title and description with the following information.
+ - if possible an copy of the output from **cat /etc/BUILDS/*** from inside the container
+ - any logs relevant for the problem
+ - how the container was started (flags, environment variables, mounted volumes etc)
+ - any other information that can be helpful
+
+## Contributing
+
+You are invited to contribute new features, fixes, or updates, large or small; we are always thrilled to receive pull requests, and do our best to process them as fast as we can.
+
+## TAGs
 
 This image only contains the latest versions of Apline, the versions are
 nimmis/alpine-micro:<tag> where tag is
 
 | Tag    | Alpine version | size |
 | ------ | -------------- | ---- |
-| latest |  latest/3.4    | [![](https://badge.imagelayers.io/nimmis/alpine-glibc:latest.svg)](https://imagelayers.io/?images=nimmis/alpine-glibc:latest) | 
-| 3.4    |  3.4           | [![](https://badge.imagelayers.io/nimmis/alpine-glibc:3.3.svg)](https://imagelayers.io/?images=nimmis/alpine-glibc:3.4) |
-| 3.3    |  3.3           | [![](https://badge.imagelayers.io/nimmis/alpine-glibc:3.3.svg)](https://imagelayers.io/?images=nimmis/alpine-glibc:3.3) |
-| 3.2    |  3.2           | [![](https://badge.imagelayers.io/nimmis/alpine-glibc:3.2.svg)](https://imagelayers.io/?images=nimmis/alpine-glibc:3.2) |
-| 3.1    |  3.1           | [![](https://badge.imagelayers.io/nimmis/alpine-glibc:3.1.svg)](https://imagelayers.io/?images=nimmis/alpine-glibc:3.1) |
+| latest |  latest/3.5    | [![](https://images.microbadger.com/badges/image/nimmis/alpine-glibc.svg)](https://microbadger.com/images/nimmis/alpine-glibc "Get your own image badge on microbadger.com") |
+| 3.5    |  3.5           | [![](https://images.microbadger.com/badges/image/nimmis/alpine-glibc:3.5.svg)](https://microbadger.com/images/nimmis/alpine-glibc:3.4 "Get your own image badge on microbadger.com") |
+| 3.4    |  3.4           | [![](https://images.microbadger.com/badges/image/nimmis/alpine-glibc:3.4.svg)](https://microbadger.com/images/nimmis/alpine-glibc:3.4 "Get your own image badge on microbadger.com") |
+| 3.3    |  3.3           | [![](https://images.microbadger.com/badges/image/nimmis/alpine-glibc:3.3.svg)](https://microbadger.com/images/nimmis/alpine-glibc:3.4 "Get your own image badge on microbadger.com") |
+| 3.2    |  3.2           | [![](https://images.microbadger.com/badges/image/nimmis/alpine-glibc:3.2.svg)](https://microbadger.com/images/nimmis/alpine-glibc:3.4 "Get your own image badge on microbadger.com") |
+| 3.1    |  3.1           | [![](https://images.microbadger.com/badges/image/nimmis/alpine-glibc:3.1.svg)](https://microbadger.com/images/nimmis/alpine-glibc:3.4 "Get your own image badge on microbadger.com") |
+
