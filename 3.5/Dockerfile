@@ -1,4 +1,4 @@
-FROM nimmis/alpine-micro:3.4
+FROM nimmis/alpine-micro:3.5
 
 MAINTAINER nimmis <kjell.havneskold@gmail.com>
 
@@ -6,7 +6,7 @@ RUN apk update && apk upgrade && \
 
     # Make info file about this build
     mkdir -p /etc/BUILDS/ && \
-    printf "Build of nimmis/alpine-glibc:3.4, date: %s\n"  `date -u +"%Y-%m-%dT%H:%M:%SZ"` > /etc/BUILDS/alpine-glibc && \
+    printf "Build of nimmis/alpine-glibc:3.5, date: %s\n"  `date -u +"%Y-%m-%dT%H:%M:%SZ"` > /etc/BUILDS/alpine-glibc && \
 
     # add curl for download
     apk add curl && \
