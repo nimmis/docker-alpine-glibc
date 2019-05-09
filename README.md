@@ -158,7 +158,10 @@ nimmis/alpine-micro:<tag> where tag is
 
 | Tag    | Alpine version | size |
 | ------ | -------------- | ---- |
-| latest |  latest/3.5    | [![](https://images.microbadger.com/badges/image/nimmis/alpine-glibc.svg)](https://microbadger.com/images/nimmis/alpine-glibc "Get your own image badge on microbadger.com") |
+| latest |  latest/3.9    | [![](https://images.microbadger.com/badges/image/nimmis/alpine-glibc.svg)](https://microbadger.com/images/nimmis/alpine-glibc "Get your own image badge on microbadger.com") |
+| 3.9   |  3.9           | [![](https://images.microbadger.com/badges/image/nimmis/alpine-glibc:3.9.svg)](https://microbadger.com/images/nimmis/alpine-glibc:3.6 "Get your own image badge on microbadger.com") |
+| 3.8   |  3.8           | [![](https://images.microbadger.com/badges/image/nimmis/alpine-glibc:3.8.svg)](https://microbadger.com/images/nimmis/alpine-glibc:3.6 "Get your own image badge on microbadger.com") |
+| 3.7   |  3.7           | [![](https://images.microbadger.com/badges/image/nimmis/alpine-glibc:3.7.svg)](https://microbadger.com/images/nimmis/alpine-glibc:3.6 "Get your own image badge on microbadger.com") |
 | 3.6   |  3.6           | [![](https://images.microbadger.com/badges/image/nimmis/alpine-glibc:3.6.svg)](https://microbadger.com/images/nimmis/alpine-glibc:3.6 "Get your own image badge on microbadger.com") |
 | 3.5    |  3.5           | [![](https://images.microbadger.com/badges/image/nimmis/alpine-glibc:3.5.svg)](https://microbadger.com/images/nimmis/alpine-glibc:3.5 "Get your own image badge on microbadger.com") |
 | 3.4    |  3.4           | [![](https://images.microbadger.com/badges/image/nimmis/alpine-glibc:3.4.svg)](https://microbadger.com/images/nimmis/alpine-glibc:3.4 "Get your own image badge on microbadger.com") |
