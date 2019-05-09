@@ -2,13 +2,13 @@ FROM nimmis/alpine-micro:3.1
 
 MAINTAINER nimmis <kjell.havneskold@gmail.com>
 
-ENV GLIBC_VERSION=2.26-r0
+ENV GLIBC_VERSION=2.29-r0
 
 RUN apk update && apk upgrade && \
 
     # Make info file about this build
     mkdir -p /etc/BUILDS/ && \
-    printf "Build of nimmis/alpine-glibc:3.5, date: %s\n"  `date -u +"%Y-%m-%dT%H:%M:%SZ"` > /etc/BUILDS/alpine-glibc && \
+    printf "Build of nimmis/alpine-glibc:3.1, date: %s\n"  `date -u +"%Y-%m-%dT%H:%M:%SZ"` > /etc/BUILDS/alpine-glibc && \
 
     # add curl for download
     apk add curl && \
