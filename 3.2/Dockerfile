@@ -2,7 +2,7 @@ FROM nimmis/alpine-micro:3.2
 
 MAINTAINER nimmis <kjell.havneskold@gmail.com>
 
-ENV GLIBC_VERSION=2.29-r0
+ENV GLIBC_VERSION=2.27-r0
 
 RUN apk update && apk upgrade && \
 
